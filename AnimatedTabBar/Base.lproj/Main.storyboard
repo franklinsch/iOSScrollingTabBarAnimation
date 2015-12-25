@@ -85,7 +85,7 @@
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Tv-Ta-RG3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="ob9-b8-so4" customClass="TabBarControllerDelegate" customModule="AnimatedTabBar" customModuleProvider="target">
+                <customObject id="ob9-b8-so4" customClass="ScrollingTabBarControllerDelegate" customModule="AnimatedTabBar" customModuleProvider="target">
                     <connections>
                         <outlet property="tabBarController" destination="8bN-ng-Rnz" id="ygl-gL-bqH"/>
                     </connections>

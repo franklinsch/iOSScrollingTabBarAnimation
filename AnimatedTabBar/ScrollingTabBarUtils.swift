@@ -1,6 +1,6 @@
 //
-//  NavigationControllerDelegate.swift
-//  AnimatedTabBar
+//  ScrollingTabBarUtils.swift
+//  ScrollingTabBarUtils
 //
 //  Created by Franklin Schrans on 24/12/2015.
 //  Copyright © 2015 Franklin Schrans. All rights reserved.
@@ -8,21 +8,17 @@
 
 import UIKit
 
-class TabBarControllerDelegate: NSObject, UITabBarControllerDelegate {
+class ScrollingTabBarControllerDelegate: NSObject, UITabBarControllerDelegate {
     @IBOutlet weak var tabBarController: UITabBarController!
     
     var lastSelectedIndex = 0
     
     func tabBarController(tabBarController: UITabBarController, animationControllerForTransitionFromViewController fromVC: UIViewController, toViewController toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return MoveTransitionAnimator(tabBarController: self.tabBarController, lastIndex: tabBarController.selectedIndex)
-    }
-    
-    func tabBarController(tabBarController: UITabBarController, didSelectViewController viewController: UIViewController) {
-        
+        return ScrollingTransitionAnimator(tabBarController: self.tabBarController, lastIndex: tabBarController.selectedIndex)
     }
 }
 
-class MoveTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning {
+class ScrollingTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning {
     weak var transitionContext: UIViewControllerContextTransitioning?
     var tabBarController: UITabBarController!
     var lastIndex = 0
