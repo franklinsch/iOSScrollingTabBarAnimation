@@ -20,11 +20,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUh-ea-MYx">
                                 <rect key="frame" x="264" y="283" width="73" height="33"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.15294117647058825" green="0.68235294117647061" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="DUh-ea-MYx" firstAttribute="centerY" secondItem="X4e-Tl-Vc8" secondAttribute="centerY" id="050-ht-4mh"/>
                             <constraint firstItem="DUh-ea-MYx" firstAttribute="centerX" secondItem="X4e-Tl-Vc8" secondAttribute="centerX" id="aPO-O0-LYQ"/>
@@ -51,11 +51,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LqM-i0-gwL">
                                 <rect key="frame" x="266" y="283" width="69" height="32.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.28235294117647058" green="0.396078431372549" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="LqM-i0-gwL" firstAttribute="centerY" secondItem="CPz-gq-YC8" secondAttribute="centerY" id="JSh-DS-0pd"/>
                             <constraint firstItem="LqM-i0-gwL" firstAttribute="centerX" secondItem="CPz-gq-YC8" secondAttribute="centerX" id="dAt-aR-PTz"/>
@@ -71,6 +71,7 @@
         <scene sceneID="B9G-r5-sgi">
             <objects>
                 <tabBarController id="8bN-ng-Rnz" sceneMemberID="viewController">
+                    <keyCommands/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="0MW-G7-YQn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -107,11 +108,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3l-OU-VU4">
                                 <rect key="frame" x="264" y="283" width="73" height="33"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.58431372549019611" green="0.6470588235294118" blue="0.65098039215686276" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="d3l-OU-VU4" firstAttribute="centerY" secondItem="2wh-Ea-xvj" secondAttribute="centerY" id="ZR0-ke-Sip"/>
                             <constraint firstItem="d3l-OU-VU4" firstAttribute="centerX" secondItem="2wh-Ea-xvj" secondAttribute="centerX" id="aAw-8E-fRw"/>
