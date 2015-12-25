@@ -5,6 +5,8 @@ A horizontal scrolling animation for iOS `TabBarControllers`.
 
 Works any number of `TabBarItem`s, any orientation.
 
+[Blog post](http://franklinsch.github.io/2015/12/25/scrolling-tab-bar.html)
+
 ##Demo
 ----------
 With three `TabBarItems`:
