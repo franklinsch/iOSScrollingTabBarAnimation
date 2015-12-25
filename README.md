@@ -1,8 +1,8 @@
 # ScrollingTabBarControllerAnimation
 ------------------------------------
 
-A horizontal scrolling animation for `TabBarControllers`.
-Works any number of `TabBarItem`s.
+A horizontal scrolling animation for iOS `TabBarControllers`.
+Works any number of `TabBarItem`s, any orientation.
 
 ##Demo
 ----------
