@@ -61,8 +61,7 @@
 				257B93071C2C426A0000FB6B /* LaunchScreen.storyboard */,
 				257B930A1C2C426A0000FB6B /* Info.plist */,
 			);
-			name = ScrollingTabBarDemo;
-			path = AnimatedTabBar;
+			path = ScrollingTabBarDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +198,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ScrollingTabBarDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -237,6 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ScrollingTabBarDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -248,7 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AnimatedTabBar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ScrollingTabBarDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.franklinschrans.com.AnimatedTabBar;
 				PRODUCT_NAME = ScrollingTabBarDemo;
@@ -259,7 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AnimatedTabBar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ScrollingTabBarDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.franklinschrans.com.AnimatedTabBar;
 				PRODUCT_NAME = ScrollingTabBarDemo;
