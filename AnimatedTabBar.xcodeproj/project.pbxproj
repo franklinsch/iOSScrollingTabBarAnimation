@@ -14,6 +14,7 @@
 		257B93091C2C426A0000FB6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257B93071C2C426A0000FB6B /* LaunchScreen.storyboard */; };
 		257B93141C2C426B0000FB6B /* AnimatedTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257B93131C2C426B0000FB6B /* AnimatedTabBarTests.swift */; };
 		257B931F1C2C426B0000FB6B /* AnimatedTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257B931E1C2C426B0000FB6B /* AnimatedTabBarUITests.swift */; };
+		25CBCDE81C2C441700D9B6D9 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CBCDE71C2C441700D9B6D9 /* NavigationControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		257B931A1C2C426B0000FB6B /* AnimatedTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		257B931E1C2C426B0000FB6B /* AnimatedTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabBarUITests.swift; sourceTree = "<group>"; };
 		257B93201C2C426B0000FB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25CBCDE71C2C441700D9B6D9 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				257B92FE1C2C426A0000FB6B /* AppDelegate.swift */,
 				257B93001C2C426A0000FB6B /* ViewController.swift */,
+				25CBCDE71C2C441700D9B6D9 /* NavigationControllerDelegate.swift */,
 				257B93021C2C426A0000FB6B /* Main.storyboard */,
 				257B93051C2C426A0000FB6B /* Assets.xcassets */,
 				257B93071C2C426A0000FB6B /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				257B93011C2C426A0000FB6B /* ViewController.swift in Sources */,
+				25CBCDE81C2C441700D9B6D9 /* NavigationControllerDelegate.swift in Sources */,
 				257B92FF1C2C426A0000FB6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				257B93251C2C426B0000FB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		257B93261C2C426B0000FB6B /* Build configuration list for PBXNativeTarget "AnimatedTabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				257B93281C2C426B0000FB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		257B93291C2C426B0000FB6B /* Build configuration list for PBXNativeTarget "AnimatedTabBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				257B932B1C2C426B0000FB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
