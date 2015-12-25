@@ -9,12 +9,8 @@
 import UIKit
 
 class ScrollingTabBarControllerDelegate: NSObject, UITabBarControllerDelegate {
-    @IBOutlet weak var tabBarController: UITabBarController!
-    
-    var lastSelectedIndex = 0
-    
     func tabBarController(tabBarController: UITabBarController, animationControllerForTransitionFromViewController fromVC: UIViewController, toViewController toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return ScrollingTransitionAnimator(tabBarController: self.tabBarController, lastIndex: tabBarController.selectedIndex)
+        return ScrollingTransitionAnimator(tabBarController: tabBarController, lastIndex: tabBarController.selectedIndex)
     }
 }
 
