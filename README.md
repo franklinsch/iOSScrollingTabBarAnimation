@@ -21,12 +21,12 @@ With three `TabBarItems`:
 
     class YourTabBarController: UITabBarController {
 
-        let delegateHolder = ScrollingTabBarControllerDelegate()
+        let delegate = ScrollingTabBarControllerDelegate()
 
         override func viewDidLoad() {
             super.viewDidLoad()
 
-            self.delegate = delegateHolder
+            self.delegate = delegate
         }
 
     }
