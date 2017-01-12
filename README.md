@@ -16,6 +16,21 @@ With three `TabBarItems`:
 
 * Import `ScrollingTabBarUtils.swift` to your Xcode project
 * Set your `UITabBarController`'s `delegate` to `ScrollingTabBarControllerDelegate`
+    
+    Ex: 
+
+    class YourTabBarController: UITabBarController {
+
+        let delegateHolder = ScrollingTabBarControllerDelegate()
+
+        override func viewDidLoad() {
+            super.viewDidLoad()
+
+            self.delegate = delegateHolder
+        }
+
+    }
+
 * That's it!
 
 ##Customization

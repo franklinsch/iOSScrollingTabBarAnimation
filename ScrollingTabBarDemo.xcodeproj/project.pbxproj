@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					257B92FA1C2C426A0000FB6B = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -253,6 +254,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.franklinschrans.com.AnimatedTabBar;
 				PRODUCT_NAME = ScrollingTabBarDemo;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +266,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.franklinschrans.com.AnimatedTabBar;
 				PRODUCT_NAME = ScrollingTabBarDemo;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
