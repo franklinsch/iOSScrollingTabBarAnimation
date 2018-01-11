@@ -1,18 +1,16 @@
 # ScrollingTabBarControllerAnimation
-------------------------------------
 
 A horizontal scrolling animation for iOS `TabBarControllers`. Works with any number of `TabBarItems`, and any orientation.
 
 [Blog post](http://franklinsch.github.io/2015/12/25/scrolling-tab-bar.html)
 
-##Demo
-----------
+## Demo
+
 With three `TabBarItems`:
 
 !["ScrollingTabBarControllerAnimation with three tabs"](demo.gif)
 
-##Usage
--------
+## Usage
 
 * Import `ScrollingTabBarUtils.swift` to your Xcode project
 * Set your `UITabBarController`'s `delegate` to `ScrollingTabBarControllerDelegate`
@@ -33,12 +31,12 @@ With three `TabBarItems`:
 
 * That's it!
 
-##Customization
----------------
+## Customization
 
 The animation is provided by a call to `UIView.animateWithDuration(_:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:)`, and the transition duration should be modified in `transitionDuration(_:)`.
 
 Feel free to modify these parameters.
 
-##License
+## License
+
 MIT, see LICENSE for details.
